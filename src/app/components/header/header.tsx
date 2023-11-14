@@ -15,6 +15,7 @@ import {
 import { useDispatch, useSelector } from 'react-redux';
 import { RootState } from '@/app/Redux/Store';
 import { addCart, clearCart, delCart, dellItemCart } from '@/app/Redux/Action';
+import { FaCartPlus } from 'react-icons/fa';
 
 interface Product {
   id: number;
@@ -63,7 +64,7 @@ const Header = () => {
           <h1>MKS</h1> <span>Sistemas</span>
         </Logo>
         <CartIcon onClick={handleButtonClick}>
-          icon <span>{state.cart.length}</span>
+          <FaCartPlus size={22} /> <span>{state.cart.length}</span>
         </CartIcon>
       </HeaderContainer>
 

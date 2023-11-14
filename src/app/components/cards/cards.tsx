@@ -7,6 +7,7 @@ import {
   NamePrice,
 } from './Styled';
 import { addCart } from '@/app/Redux/Action';
+import { FiShoppingBag } from 'react-icons/fi';
 
 interface Product {
   id: number;
@@ -50,7 +51,10 @@ const Cards: React.FC<ProductListProps> = ({ products }) => {
             <p>{pro.description}.</p>
           </Description>
 
-          <Button onClick={() => addProductTocart(pro)}>COMPRAR</Button>
+          <Button onClick={() => addProductTocart(pro)}>
+            <FiShoppingBag size={15} />
+            COMPRAR
+          </Button>
         </CardContainer>
       ))}
     </>
