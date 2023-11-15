@@ -13,8 +13,8 @@ import {
   Quantity,
 } from './Styled';
 import { useDispatch, useSelector } from 'react-redux';
-import { RootState } from '@/app/Redux/Store';
-import { addCart, clearCart, delCart, dellItemCart } from '@/app/Redux/Action';
+import { RootState } from '../../Redux/Store';
+import { addCart, clearCart, delCart, dellItemCart } from '../../Redux/Action';
 import { FaCartPlus } from 'react-icons/fa';
 
 interface Product {

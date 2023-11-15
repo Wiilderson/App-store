@@ -7,7 +7,7 @@ import API from './services/API';
 import { Provider } from 'react-redux';
 import store from './Redux/Store';
 
-export default function Home() {
+const Home = () => {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
@@ -42,4 +42,6 @@ export default function Home() {
       </Provider>
     </div>
   );
-}
+};
+
+export default Home;
