@@ -37,4 +37,4 @@ abra [http://localhost:3000](http://localhost:3000) no seu navegador para ver o 
 
 A maneira mais fácil de implantar seu aplicativo Next.js é usar o [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) dos criadores de Next.js.
 
-confira o projeto rodando na vercel [App Store](https://app-store-eight.vercel.app/).
+ <!-- ###confira o projeto rodando na vercel [App Store](https://app-store-eight.vercel.app/). -->
